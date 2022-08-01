@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(108, 108, 235) ;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    height:600px;
+    align-items: center;
+}
+.card{
+    background-color: azure;
+    width:320px;
+    height: 400px;
+    margin: 10px;
+    border-radius:20px;
+    box-shadow:10px;
+}
+.card-image{
+   
+    background-color: bisque;
+    height:180px;
+    background-size:cover;
+    background-position:center;
+    border-radius: 15px 15px 0px 0px;
+    
+
+}
+.car-1{
+    background-image: url(./istockphoto-1307086567-1024x1024.jpg);
+}
+.car-2{
+    background-image: url(./istockphoto-1368922162-1024x1024.jpg);
+}
+.car-3{
+    background-image: url(./istockphoto-1386831709-1024x1024.jpg);
+}
+
+.card>h2{
+    text-align: center;
+}
+.card > p {
+    text-align: justify;
+}
+.card > button{
+    height:40px;
+    width:130px;
+    margin-left:95px;
+    background-color: rgb(191, 236, 199);
+    font-weight: bold;
+    border-radius: 15px;
+    cursor: pointer;
+   
+}
+.card:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
